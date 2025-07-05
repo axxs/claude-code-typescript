@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Nix files (optional for this repo)
+default.nix
+result
+result-*
+
+# Local configuration
+.claude-hooks-config.sh
+.claude-hooks-ignore
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Logs
+*.log

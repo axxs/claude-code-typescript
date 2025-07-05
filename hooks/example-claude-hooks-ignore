@@ -1,0 +1,91 @@
+# Example .claude-hooks-ignore file
+# Copy this to your project root as .claude-hooks-ignore to exclude files
+# from Claude hooks checking.
+#
+# Format: Shell glob patterns, one per line
+# Comments start with #
+# Empty lines are ignored
+
+# Vendor directories
+vendor/**
+node_modules/**
+.git/**
+
+# Generated files
+*.d.ts
+*.js.map
+*.generated.ts
+*.generated.js
+dist/**
+build/**
+out/**
+coverage/**
+
+# Third-party code
+third_party/**
+external/**
+
+# Test fixtures that might contain unusual patterns
+testdata/**
+fixtures/**
+**/testdata/**
+
+# Documentation that might have code examples
+docs/**/*.ts
+docs/**/*.js
+examples/**
+
+# Specific files
+.eslintrc.js   # Has example configs that might trigger checks
+tsconfig.json  # Type config file
+TODO.md        # Might have many TODO items
+
+# IDE and editor files
+.idea/**
+.vscode/**
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/**
+temp/**
+*.tmp
+*.temp
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Images and media
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.mp4
+*.mp3
+
+# Specific patterns for TypeScript projects
+# Test files (might use console.log for debugging)
+*.test.ts
+*.spec.ts
+*.test.js
+*.spec.js
+
+# Configuration files (might use synchronous operations)
+*.config.ts
+*.config.js
+setup*.ts
+setup*.js
