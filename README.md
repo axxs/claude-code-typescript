@@ -9,15 +9,15 @@ A comprehensive framework for using Claude Code with TypeScript projects, provid
 1. **Copy the framework files to your project:**
    ```bash
    # Clone this repository
-   git clone <this-repo-url> claude-code-framework
+   git clone https://github.com/axxs/claude-code-typescript.git
    
    # Copy the essential files to your project
-   cp claude-code-framework/CLAUDE.md ./CLAUDE.md
-   cp -r claude-code-framework/commands ./.claude/commands
-   cp claude-code-framework/settings.json ./.claude/settings.json
+   cp claude-code-typescript/CLAUDE.md ./CLAUDE.md
+   cp -r claude-code-typescript/commands ./.claude/commands
+   cp claude-code-typescript/settings.json ./.claude/settings.json
    
    # Optional: Copy hooks for automated checks
-   cp -r claude-code-framework/hooks/* ~/.claude/hooks/
+   cp -r claude-code-typescript/hooks/* ~/.claude/hooks/
    ```
 
 2. **For new TypeScript projects:**
@@ -274,4 +274,4 @@ To contribute to this framework:
 
 ## License
 
-[Your License Here]
+MIT License - see [LICENSE](LICENSE) file for details
